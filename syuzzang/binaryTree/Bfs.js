@@ -16,7 +16,6 @@ class Node {
   // BFS 함수 정의
   function bfs(root) {
     const visited = [];
-  
     if (root === null) {
       return 0;
     }
